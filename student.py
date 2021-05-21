@@ -9,7 +9,6 @@ class Student:
         if type(grade) is Grade:
             self.grades.append(grade)
 
-
 class Grade:
     minimum_passing = 65
 
